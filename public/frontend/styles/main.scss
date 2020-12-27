@@ -1,0 +1,476 @@
+body {
+  background-color: #fff;
+  font-family: "Assistant", sans-serif;
+  color: #071c4d;
+}
+
+// Navbar
+.navbar-brand {
+  img {
+    max-height: 40px;
+  }
+}
+
+.navbar-light {
+  .navbar-nav {
+    .nav-link {
+      color: #071c4d;
+
+      &.active {
+        font-weight: bold;
+        color: #071c4d !important;
+      }
+    }
+  }
+}
+
+.btn-navbar-right {
+  margin-top: -10px !important;
+  margin-bottom: -8px !important;
+  margin-right: -18px !important;
+
+  height: 70px;
+  border-radius: 0;
+}
+
+.btn-login {
+  background-color: #071c4d;
+  color: #fff;
+
+  &:hover {
+    background-color: #1e3771;
+    color: #fff;
+  }
+}
+
+// Header
+header {
+  padding: 167px 0px 131px;
+  margin-top: -70px;
+  background-image: url(../images/header.jpg);
+  background-size: cover;
+
+  h1,
+  p {
+    color: #fff;
+  }
+
+  h1 {
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    font-size: 50px;
+  }
+
+  p {
+    font-size: 22px;
+    padding: 88px 0px 59px;
+  }
+
+  .btn-discover-product {
+    background-color: #ff7c3d;
+    color: #fff;
+
+    &:hover {
+      background-color: #ff9f71;
+      color: #fff;
+    }
+  }
+}
+
+// Main Content
+// Section Statistics
+.section-stats {
+  margin-top: -50px;
+
+  .stats-detail {
+    padding-top: 15px;
+    background-color: #fff;
+    padding-left: 40px;
+  }
+
+  h4 {
+    margin-bottom: 0px;
+  }
+
+  p {
+    font-size: 20px;
+    font-weight: lighter;
+  }
+}
+
+// Section Mine and Yours
+.mine-and-yours {
+  min-height: 528px;
+  background-color: #051334;
+  margin-top: -50px;
+  margin-bottom: -230px;
+
+  .section-mine-and-yours-heading {
+    margin-top: 150px;
+
+    h2,
+    p {
+      color: #fff;
+    }
+
+    h2 {
+      font-family: "Playfair Display", serif;
+      font-weight: bold;
+      font-size: 40px;
+    }
+
+    p {
+      font-size: 22px;
+    }
+  }
+}
+
+// Section MaY Content
+.section-popular-may {
+  .section-popular-may {
+    .card-may {
+      min-height: 466px;
+      background-color: #fff;
+      color: #fff;
+      padding: 50px;
+      background-size: cover;
+      margin-bottom: 40px;
+    }
+
+    .may-type {
+      font-family: "Playfair Display", serif;
+      font-weight: bold;
+      font-size: 40px;
+      color: #000;
+    }
+
+    .may-button {
+      .btn-may-details {
+        background-color: #ff7c3d;
+        color: #fff;
+
+        &:hover {
+          background-color: #ff9f71;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+// Section Method Payments
+.method-payments {
+  background-color: #fff;
+  margin-top: -100px;
+  padding-top: 172px;
+  padding-bottom: 70px;
+
+  h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #000;
+  }
+
+  p {
+    font-size: 18px;
+    color: #000;
+  }
+
+  img {
+    max-width: 100%;
+  }
+}
+
+// Section Testimonials Heading
+.section-testimonial-heading {
+  min-height: 543px;
+  background: linear-gradient(#f7f9ff 0%, #f7f9ff 100%);
+  margin-bottom: 50px;
+
+  h2 {
+    padding-top: 20px;
+    padding-bottom: 5px;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    color: #000;
+  }
+
+  p {
+    font-size: 18px;
+    color: #000;
+  }
+}
+
+// Section Testimonials Content
+.section-testimonial-content {
+  margin-top: -370px;
+  padding-bottom: 50px;
+
+  .card-testimonial {
+    padding: 40px 20px 10px;
+    border-radius: 11px;
+    margin-bottom: 20px;
+
+    .testimonial-content {
+      min-height: 380px;
+    }
+
+    h3 {
+      font-size: 22px;
+      color: #000;
+    }
+
+    .testimonial {
+      font-weight: 200;
+      font-size: 26px;
+      text-align: center;
+      color: #6e6e6e;
+      margin-bottom: 40px;
+      min-height: 160px;
+    }
+
+    .addict-to {
+      font-weight: normal;
+      font-size: 22px;
+      color: #6e6e6e;
+    }
+
+    hr {
+      margin-left: -20px;
+      margin-right: -20px;
+    }
+  }
+
+  .btn-buy-product {
+    background-color: #ff7c3d;
+    color: #fff;
+
+    &:hover {
+      background-color: #ff9f71;
+      color: #fff;
+    }
+  }
+}
+
+// Footer
+.section-footer {
+  a {
+    color: #071c4d;
+  }
+}
+
+// Main Content Details Page
+.section-details-header {
+  min-height: 310px;
+  background: #e4e6eb;
+  margin-top: -70px;
+}
+
+.section-details-content {
+  margin-top: -210px;
+  min-height: 100vh;
+  .breadcrumb {
+    background-color: transparent;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+
+  .breadcrumb-item {
+    &.active {
+      font-weight: bold;
+      color: #071c4d;
+    }
+  }
+
+  .card-details {
+    padding: 30px;
+    border-radius: 11px;
+    margin-bottom: 20px;
+
+    h1 {
+      font-size: 26px;
+      font-weight: bold;
+    }
+
+    h2 {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    p {
+      font-size: 20px;
+      color: #b1b1b1;
+    }
+
+    .product-information {
+      th {
+        font-weight: 300;
+        font-size: 18px;
+        color: #071c4d;
+        width: 352px;
+        background: transparent;
+      }
+
+      td {
+        font-weight: 300;
+        font-size: 18px;
+        color: #b1b1b1;
+      }
+    }
+
+    .payments-information {
+      p {
+        font-size: 15px;
+        font-weight: normal;
+      }
+
+      .may-inc {
+        font-family: Assistant;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 30px;
+        text-align: center;
+        color: #000;
+      }
+    }
+
+    .bank {
+      font-family: Assistant;
+      font-weight: bold;
+      font-size: 15px;
+      line-height: 30px;
+      text-align: center;
+      color: red;
+    }
+
+    h3 {
+      font-weight: bold;
+      font-size: 20px;
+      color: #000;
+    }
+
+    // .btn-submit {
+    //   background-color: #071c4d;
+    //   color: #fff;
+
+    //   &:hover {
+    //     background-color: #1b3b86;
+    //     color: #fff;
+    //   }
+    // }
+
+    .disclaimer {
+      font-weight: 300;
+      font-size: 14px;
+      color: #b1b1b1;
+    }
+
+    .disclaimer-checkout {
+      color: red;
+      font-size: 14px;
+    }
+  }
+
+  .card-right {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom: 0;
+  }
+
+  // gallery
+  .gallery {
+    .xzoom-container {
+      display: block;
+
+      .xzoom {
+        width: 100%;
+        box-shadow: none;
+        margin-bottom: 15px;
+      }
+
+      .xactive {
+        border: 4px solid #1abc9c;
+        box-shadow: none;
+      }
+    }
+  }
+
+  .members {
+    .member-image {
+      width: 40px;
+      height: 40px;
+    }
+  }
+
+  .material {
+    margin-top: 20px;
+
+    h3 {
+      font-size: 18px;
+      color: #071c4d;
+      margin-bottom: 0;
+    }
+
+    p {
+      margin-bottom: 0;
+    }
+
+    .description {
+      margin-left: 10px;
+      overflow: hidden;
+      float: left;
+    }
+
+    .features-image {
+      width: 45px;
+      height: 45px;
+      float: left;
+    }
+  }
+
+  .join-container {
+    margin-top: -16px;
+  }
+
+  .btn-purchase {
+    background-color: #ff7c3d;
+    color: #fff;
+    border-radius: 0;
+
+    &:hover {
+      background-color: #ff9f71;
+      color: #fff;
+    }
+  }
+}
+
+.section-success {
+  height: 90vh;
+
+  h1 {
+    font-weight: 600;
+    font-size: 26px;
+    color: #071c4d;
+    margin-top: 10px;
+  }
+
+  p {
+    font-weight: 300;
+    font-size: 18px;
+    color: #b1b1b1;
+  }
+
+  .btn-home-page {
+    border-radius: 4px;
+    background-color: #071c4d;
+    color: #fff;
+
+    &:hover {
+      background-color: #2a488e;
+      color: #fff;
+    }
+  }
+}

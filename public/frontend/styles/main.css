@@ -1,0 +1,434 @@
+body {
+  background-color: #fff;
+  font-family: "Assistant", sans-serif;
+  color: #071c4d;
+}
+
+.navbar-brand img {
+  max-height: 40px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #071c4d;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #071c4d !important;
+}
+
+.btn-navbar-right {
+  margin-top: -10px !important;
+  margin-bottom: -8px !important;
+  margin-right: -18px !important;
+  height: 70px;
+  border-radius: 0;
+}
+
+.btn-login {
+  background-color: #071c4d;
+  color: #fff;
+}
+
+.btn-login:hover {
+  background-color: #1e3771;
+  color: #fff;
+}
+
+header {
+  padding: 167px 0px 131px;
+  margin-top: -70px;
+  background-image: url(../images/header.jpg);
+  background-size: cover;
+}
+
+header h1,
+header p {
+  color: #fff;
+}
+
+header h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+header p {
+  font-size: 22px;
+  padding: 88px 0px 59px;
+}
+
+header .btn-discover-product {
+  background-color: #ff7c3d;
+  color: #fff;
+}
+
+header .btn-discover-product:hover {
+  background-color: #ff9f71;
+  color: #fff;
+}
+
+.section-stats {
+  margin-top: -50px;
+}
+
+.section-stats .stats-detail {
+  padding-top: 15px;
+  background-color: #fff;
+  padding-left: 40px;
+}
+
+.section-stats h4 {
+  margin-bottom: 0px;
+}
+
+.section-stats p {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.mine-and-yours {
+  min-height: 528px;
+  background-color: #051334;
+  margin-top: -50px;
+  margin-bottom: -230px;
+}
+
+.mine-and-yours .section-mine-and-yours-heading {
+  margin-top: 150px;
+}
+
+.mine-and-yours .section-mine-and-yours-heading h2,
+.mine-and-yours .section-mine-and-yours-heading p {
+  color: #fff;
+}
+
+.mine-and-yours .section-mine-and-yours-heading h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.mine-and-yours .section-mine-and-yours-heading p {
+  font-size: 22px;
+}
+
+.section-popular-may .section-popular-may .card-may {
+  min-height: 466px;
+  background-color: #fff;
+  color: #fff;
+  padding: 50px;
+  background-size: cover;
+  margin-bottom: 40px;
+}
+
+.section-popular-may .section-popular-may .may-type {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 40px;
+  color: #000;
+}
+
+.section-popular-may .section-popular-may .may-button .btn-may-details {
+  background-color: #ff7c3d;
+  color: #fff;
+}
+
+.section-popular-may .section-popular-may .may-button .btn-may-details:hover {
+  background-color: #ff9f71;
+  color: #fff;
+}
+
+.method-payments {
+  background-color: #fff;
+  margin-top: -100px;
+  padding-top: 172px;
+  padding-bottom: 70px;
+}
+
+.method-payments h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: #000;
+}
+
+.method-payments p {
+  font-size: 18px;
+  color: #000;
+}
+
+.method-payments img {
+  max-width: 100%;
+}
+
+.section-testimonial-heading {
+  min-height: 543px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f7f9ff), to(#f7f9ff));
+  background: linear-gradient(#f7f9ff 0%, #f7f9ff 100%);
+  margin-bottom: 50px;
+}
+
+.section-testimonial-heading h2 {
+  padding-top: 20px;
+  padding-bottom: 5px;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  color: #000;
+}
+
+.section-testimonial-heading p {
+  font-size: 18px;
+  color: #000;
+}
+
+.section-testimonial-content {
+  margin-top: -370px;
+  padding-bottom: 50px;
+}
+
+.section-testimonial-content .card-testimonial {
+  padding: 40px 20px 10px;
+  border-radius: 11px;
+  margin-bottom: 20px;
+}
+
+.section-testimonial-content .card-testimonial .testimonial-content {
+  min-height: 380px;
+}
+
+.section-testimonial-content .card-testimonial h3 {
+  font-size: 22px;
+  color: #000;
+}
+
+.section-testimonial-content .card-testimonial .testimonial {
+  font-weight: 200;
+  font-size: 26px;
+  text-align: center;
+  color: #6e6e6e;
+  margin-bottom: 40px;
+  min-height: 160px;
+}
+
+.section-testimonial-content .card-testimonial .addict-to {
+  font-weight: normal;
+  font-size: 22px;
+  color: #6e6e6e;
+}
+
+.section-testimonial-content .card-testimonial hr {
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.section-testimonial-content .btn-buy-product {
+  background-color: #ff7c3d;
+  color: #fff;
+}
+
+.section-testimonial-content .btn-buy-product:hover {
+  background-color: #ff9f71;
+  color: #fff;
+}
+
+.section-footer a {
+  color: #071c4d;
+}
+
+.section-details-header {
+  min-height: 310px;
+  background: #e4e6eb;
+  margin-top: -70px;
+}
+
+.section-details-content {
+  margin-top: -210px;
+  min-height: 100vh;
+}
+
+.section-details-content .breadcrumb {
+  background-color: transparent;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.section-details-content .breadcrumb-item.active {
+  font-weight: bold;
+  color: #071c4d;
+}
+
+.section-details-content .card-details {
+  padding: 30px;
+  border-radius: 11px;
+  margin-bottom: 20px;
+}
+
+.section-details-content .card-details h1 {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.section-details-content .card-details h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.section-details-content .card-details p {
+  font-size: 20px;
+  color: #b1b1b1;
+}
+
+.section-details-content .card-details .product-information th {
+  font-weight: 300;
+  font-size: 18px;
+  color: #071c4d;
+  width: 352px;
+  background: transparent;
+}
+
+.section-details-content .card-details .product-information td {
+  font-weight: 300;
+  font-size: 18px;
+  color: #b1b1b1;
+}
+
+.section-details-content .card-details .payments-information p {
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.section-details-content .card-details .payments-information .may-inc {
+  font-family: Assistant;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 30px;
+  text-align: center;
+  color: #000;
+}
+
+.section-details-content .card-details .bank {
+  font-family: Assistant;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 30px;
+  text-align: center;
+  color: red;
+}
+
+.section-details-content .card-details h3 {
+  font-weight: bold;
+  font-size: 20px;
+  color: #000;
+}
+
+.section-details-content .card-details .disclaimer {
+  font-weight: 300;
+  font-size: 14px;
+  color: #b1b1b1;
+}
+
+.section-details-content .card-details .disclaimer-checkout {
+  color: red;
+  font-size: 14px;
+}
+
+.section-details-content .card-right {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: 0;
+}
+
+.section-details-content .gallery .xzoom-container {
+  display: block;
+}
+
+.section-details-content .gallery .xzoom-container .xzoom {
+  width: 100%;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  margin-bottom: 15px;
+}
+
+.section-details-content .gallery .xzoom-container .xactive {
+  border: 4px solid #1abc9c;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.section-details-content .members .member-image {
+  width: 40px;
+  height: 40px;
+}
+
+.section-details-content .material {
+  margin-top: 20px;
+}
+
+.section-details-content .material h3 {
+  font-size: 18px;
+  color: #071c4d;
+  margin-bottom: 0;
+}
+
+.section-details-content .material p {
+  margin-bottom: 0;
+}
+
+.section-details-content .material .description {
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+}
+
+.section-details-content .material .features-image {
+  width: 45px;
+  height: 45px;
+  float: left;
+}
+
+.section-details-content .join-container {
+  margin-top: -16px;
+}
+
+.section-details-content .btn-purchase {
+  background-color: #ff7c3d;
+  color: #fff;
+  border-radius: 0;
+}
+
+.section-details-content .btn-purchase:hover {
+  background-color: #ff9f71;
+  color: #fff;
+}
+
+.section-success {
+  height: 90vh;
+}
+
+.section-success h1 {
+  font-weight: 600;
+  font-size: 26px;
+  color: #071c4d;
+  margin-top: 10px;
+}
+
+.section-success p {
+  font-weight: 300;
+  font-size: 18px;
+  color: #b1b1b1;
+}
+
+.section-success .btn-home-page {
+  border-radius: 4px;
+  background-color: #071c4d;
+  color: #fff;
+}
+
+.section-success .btn-home-page:hover {
+  background-color: #2a488e;
+  color: #fff;
+}
+/*# sourceMappingURL=main.css.map */
